@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" id="theme-color" content="#00008b" />
+    <title>Tavin.xyz</title>
+    <meta name="description" content="Tavin.xyz is a work-in-progress." />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" id="stylesheet" href="./styles/main.css" />
+    <!-- Animations -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Google Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <!-- More Google Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- W3 Automation Script -->
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <!-- Main Script -->
+    <script type="module" defer src="./scripts/main.js"></script>
+    <script
+      type="module"
+      defer
+      src="./scripts/modules/firebase-events.js"
+    ></script>
+  </head>
+  <body>
+    <div class="page_wrap" id="page_wrap">
+      <div class="header" id="header">
+        <div class="menuicon nocomputer" id="menuicon">
+          <span class="material-icons"> menu </span>
+        </div>
+        <div class="title_wrap" id="title_wrap">
+          <h1 class="pagetitle" id="pagetitle">Welcome!</h1>
+        </div>
+      </div>
+      <div class="sidebar" id="sidebar">
+        <div
+          class="button_wrap"
+          id="button_wrap"
+          w3-include-html="./html/buttons.html"
+        ></div>
+      </div>
+      <div
+        class="content_wrap"
+        id="content_wrap"
+        w3-include-html="./html/home.html"
+      ></div>
+      <div class="footer" id="footer"><p id="footertxt"></p></div>
+    </div>
+    <script type="module" defer>
+      // Loads the login button flow
+      import { setLoginbtn } from "./scripts/modules/site.js";
+      setLoginbtn();
+    </script>
+  </body>
+</html>

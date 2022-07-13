@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tavin.xyz 404 Error</title>
+    <script>
+      let path = window.location.pathname;
+      // separate the path into an array
+      let pathArray = path.split("/");
+      if (path) {
+        window.location.href = `https://tavin.xyz/#${pathArray[1]}`;
+      } else {
+        window.location.href = `https://tavin.xyz/#home`;
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

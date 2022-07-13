@@ -1,0 +1,29 @@
+{
+  "short_name": "Tavin.xyz",
+  "name": "Tavin.xyz (PWA)",
+  "description": "Install this PWA to enable background functions and advanced caching.",
+  "icons": [
+    {
+      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/media/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/media/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/media/android-chrome-512x512.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "id": "./index.html",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "landscape",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}

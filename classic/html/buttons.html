@@ -1,0 +1,54 @@
+<button
+  class="button sidebarbtn"
+  id="contactbtn"
+  onclick="updateHash('contact','Contact Me');"
+>
+  Contact Me
+  <span class="material-icons buttonicons" id="homeicon"> email </span>
+</button>
+<button
+  class="button sidebarbtn"
+  id="aboutbtn"
+  onclick="updateHash('about','About Tavin.xyz');"
+>
+  Learn More
+  <span class="material-icons buttonicons" id="homeicon"> help_outline </span>
+</button>
+<button
+  class="button sidebarbtn"
+  id="startmtgbtn"
+  onclick="updateHash('meeting','Meet Now');"
+>
+  Start Meeting
+  <span class="material-icons buttonicons" id="homeicon"> videocam </span>
+</button>
+<button class="button sidebarbtn" id="joinmtgbtn" onclick="join_meeting();">
+  Join Meeting
+  <span class="material-icons buttonicons" id="homeicon"> videocam </span>
+</button>
+<button
+  class="button sidebarbtn"
+  id="systemstatusbtn"
+  onclick="updateHash('status','System Status');"
+>
+  System Status
+  <span class="material-icons buttonicons" id="homeicon"> cloud </span>
+</button>
+<button
+  class="button sidebarbtn userDataBtn"
+  id="userDataBtn"
+  onclick="updateHash('user_data','Data');location.reload();"
+>
+  Data <span class="material-icons buttonicons"> folder </span>
+</button>
+<button class="button sidebarbtn loginbtn" id="loginbtn" onclick="login();">
+  Login
+</button>
+<button
+  class="button sidebarbtn"
+  id="gohomebtn"
+  style="opacity: 0"
+  onclick="updateHash('home','Welcome!');"
+>
+  Go Home <span class="material-icons buttonicons" id="homeicon"> home </span>
+</button>

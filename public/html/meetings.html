@@ -1,0 +1,28 @@
+<div
+  id="meeting_button_wrap"
+  class="meeting_button_wrap"
+  style="
+    max-width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  "
+>
+  <p style="max-width: 75%; font-size: 26px" class="nocomputer">
+    Meetings are best experienced on a computer.
+  </p>
+  <button
+    id="startMeetingBtn"
+    class="meetingButton"
+    onclick="location.hash = 'start_meeting'"
+  >
+    Start Meeting
+  </button>
+  <button id="joinMeetingBtn" class="meetingButton" onclick="join_meeting();">
+    Join Meeting
+  </button>
+  <button onclick="location.hash='home'">Go Home</button>
+</div>
