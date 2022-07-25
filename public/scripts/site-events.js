@@ -63,6 +63,12 @@ document.getElementById("meetings").addEventListener("click", function () {
   toggleSidebar();
 });
 
+// Cloud button is clicked.
+document.getElementById("cloudlink").addEventListener("click", function () {
+  window.location.href = "https://cloud.tavin.xyz";
+  toggleSidebar();
+});
+
 // About button is clicked.
 document.getElementById("about").addEventListener("click", function () {
   window.location.hash = "about";
