@@ -255,6 +255,11 @@ button:hover {
   transition: var(--default-time);
 }
 
+#cloudBtn {
+  position: fixed;
+  bottom: 50px;
+}
+
 .userPhoto {
   position: absolute;
   bottom: 0;
@@ -420,6 +425,11 @@ button:hover {
     position: absolute;
     bottom: 15px;
     max-width: 25%;
+  }
+
+  #cloudBtn {
+    top: 50px;
+    bottom: auto;
   }
 }
 
