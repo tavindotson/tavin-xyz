@@ -69,6 +69,12 @@ document.getElementById("cloudlink").addEventListener("click", function () {
   toggleSidebar();
 });
 
+// Status button is clicked.
+document.getElementById("statusLink").addEventListener("click", function () {
+  window.location.href = "https://uptime.tavin.xyz/status/general";
+  toggleSidebar();
+});
+
 // About button is clicked.
 document.getElementById("about").addEventListener("click", function () {
   window.location.hash = "about";
