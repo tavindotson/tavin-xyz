@@ -104,6 +104,10 @@ window.addEventListener("hashchange", function () {
   } else {
     document.getElementById("our3DContent").style.display = "none";
   }
+  if (location.hash === "#status") {
+    // Redirect to the status page.
+    window.location.href = "https://uptime.tavin.xyz/status/general";
+  }
 });
 
 // Show menu button on mobile, hide on desktop.
