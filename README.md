@@ -14,4 +14,4 @@ Method: `git ls-files | grep -Ev '.jpg|.png|terms.html|.Identifier|.ico|.gitigno
 - **1617** _07-29-2022 03:39 PDT_
 - **1680** _05-08-2022 02:54 PDT_
 
-Testing gitea.
+Testing gpg signing key.
