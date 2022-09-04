@@ -1,6 +1,6 @@
 ## Hello! You've found my personal website.
 
-Update (9/4/22): This repo now lives at https://git.tavin.xyz/tavin/tavin-xyz.git. The Github version is a mirror updated every 10 minutes.
+Update (9/4/22): This repo now lives at https://git.tavin.xyz/tavin/tavin-xyz.git. The Github version is maintained as a mirror for auto-deploy to Firebase (updated every 10 minutes).
 
 If you would like to get in touch please email [tjd@tavin.xyz](mailto:tjd@tavin.xyz).
 
