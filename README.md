@@ -16,3 +16,5 @@ Method: `git ls-files public | grep -Ev '.jpg|.png|ico|terms.html|w3.js|.yml' | 
 - **1680** _05-08-2022 02:54 PDT_ *Old method*
 
 *Old Method: `git ls-files | grep -Ev '.jpg|.png|terms.html|.Identifier|.ico|.gitignore|w3.js|dark.css|settings.json|.yml|.firebaserc|classic/*' | xargs wc -l`*
+
+Testing gitea setup again.
