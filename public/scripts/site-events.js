@@ -63,9 +63,9 @@ document.getElementById("theme").addEventListener("click", function () {
 //   toggleSidebar();
 // });
 
-// Cloud button is clicked.
+// About button is clicked.
 document.getElementById("applink").addEventListener("click", function () {
-  window.location.href = "https://apps.tavin.xyz ";
+  window.location.hash = "apps";
   toggleSidebar();
 });
 
