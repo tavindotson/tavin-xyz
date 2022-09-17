@@ -57,15 +57,15 @@ document.getElementById("theme").addEventListener("click", function () {
   toggleSidebar();
 });
 
-// Meet button is clicked.
-document.getElementById("meetings").addEventListener("click", function () {
-  window.location.hash = "meetings";
-  toggleSidebar();
-});
+// // Meet button is clicked.
+// document.getElementById("meetings").addEventListener("click", function () {
+//   window.location.hash = "meetings";
+//   toggleSidebar();
+// });
 
 // Cloud button is clicked.
-document.getElementById("cloudlink").addEventListener("click", function () {
-  window.location.href = "https://tavin.cloud";
+document.getElementById("applink").addEventListener("click", function () {
+  window.location.href = "https://apps.tavin.xyz ";
   toggleSidebar();
 });
 
