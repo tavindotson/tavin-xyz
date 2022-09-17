@@ -71,7 +71,7 @@ document.getElementById("applink").addEventListener("click", function () {
 
 // Status button is clicked.
 document.getElementById("statusLink").addEventListener("click", function () {
-  window.location.href = "https://uptime.tavin.xyz/status/general";
+  externalLink("https://uptime.tavin.xyz/status/general");
   toggleSidebar();
 });
 
