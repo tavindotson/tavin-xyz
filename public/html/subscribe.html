@@ -1,0 +1,68 @@
+<div style="margin: 0; padding: 0; border: 0; width: 100%; height: 100%">
+  <style>
+    .flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .flex-col {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .flex-col > * {
+      margin: 0.5rem 0;
+    }
+    .flex-col > label {
+      font-weight: bold;
+    }
+    .flex-col > input {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 0.25rem;
+    }
+    .flex-col > button {
+      padding: 0.5rem 1rem;
+      border: 1px solid #ccc;
+      border-radius: 0.25rem;
+      background-color: #fff;
+      color: #000;
+      font-weight: bold;
+    }
+    .flex-col > button:hover {
+      background-color: #ccc;
+    }
+  </style>
+<form action="https://keila.tavin.xyz/forms/frm_GX8qGEZd" method="post">
+  <div class="flex flex-col">
+    <label for="contact_email"> Email </label>
+    <input id="contact_email" name="contact[email]" type="email" />
+  </div>
+  <div class="flex flex-col">
+    <label for="contact_first_name"> First name </label>
+    <input id="contact_first_name" name="contact[first_name]" type="text" />
+  </div>
+  <div class="flex flex-col">
+    <label for="contact_last_name"> Last name (optional) </label>
+    <input id="contact_last_name" name="contact[last_name]" type="text" />
+  </div>
+  <div class="flex flex-col">
+    <div
+      class="h-captcha"
+      data-sitekey="9be24202-aec1-4912-aed1-a97fa8d4dde1"
+      data-theme="dark"
+    ></div>
+    <script
+      async="async"
+      defer="defer"
+      src="https://hcaptcha.com/1/api.js"
+    ></script>
+  </div>
+  <div class="flex justify-start">
+    <button style="width: 100%;">Subscribe</button>
+  </div>
+</form>
+</div>

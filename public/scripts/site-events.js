@@ -133,7 +133,7 @@ window.addEventListener("load", () => {
   hideShowMenuButton();
 });
 
-async function showOur3D() {
+function showOur3D() {
   if (location.hash === "#home" || !location.hash) {
     if (!document.getElementById("3DCanvas")) {
       let target = document.getElementById("our3DContent");
@@ -204,7 +204,7 @@ function externalLink(link) {
 }
 window.externalLink = externalLink;
 
-async function liveChat() {
+function liveChat() {
   let liveChat = document.getElementById("liveChatWrap");
   location.hash = "chat";
   setInterval(function () {
