@@ -2,7 +2,7 @@
 // These functions handle behind the scenes tasks.
 
 // Gets a cookie given a name.
-export function getCookie(name) {
+export async function getCookie(name) {
   const value = `; ${document.cookie}`;
   const parts = value.split(`; ${name}=`);
   let x = parts.pop().split(";").shift();
@@ -10,7 +10,7 @@ export function getCookie(name) {
 }
 
 // Sets a cookie given a name, value, and days to expire.
-export function setCookie(cname, cvalue, exdays) {
+export async function setCookie(cname, cvalue, exdays) {
   const d = new Date();
   d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
   let expires = "expires=" + d.toUTCString();
@@ -18,7 +18,7 @@ export function setCookie(cname, cvalue, exdays) {
     cname + "=" + cvalue + ";" + expires + ";secure;SameSite=Strict;path=/";
 }
 
-export function clearCookies() {
+export async function clearCookies() {
   const cookies = document.cookie.split(";");
   for (let i = 0; i < cookies.length; i++) {
     const cookie = cookies[i];
@@ -29,12 +29,12 @@ export function clearCookies() {
 }
 
 // UUIDv4 generator.
-export function uuidv4() {
+export async function uuidv4() {
   return self.crypto.randomUUID();
 }
 
 // Download a file given data.
-export function downloadFile(data, filename, type) {
+export async function downloadFile(data, filename, type) {
   var file = new Blob([data], { type: type });
   if (window.navigator.msSaveOrOpenBlob)
     // IE10+
@@ -55,7 +55,7 @@ export function downloadFile(data, filename, type) {
 }
 
 // Download a file given URL.
-export function downloadURL(url, filename) {
+export async function downloadURL(url, filename) {
   fetch(url)
     .then((response) => response.blob())
     .then((blob) => {
@@ -68,7 +68,7 @@ export function downloadURL(url, filename) {
 }
 
 // Add a script to the body element.
-export function addElementBody(src, type) {
+export async function addElementBody(src, type) {
   if (!type) {
     type = "script";
   }
@@ -78,7 +78,7 @@ export function addElementBody(src, type) {
 }
 
 // Generate a random key.
-export function generateKey() {
+export async function generateKey() {
   let newKey = "";
   var possible =
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";

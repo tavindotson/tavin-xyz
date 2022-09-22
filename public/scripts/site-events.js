@@ -82,7 +82,7 @@ document.getElementById("about").addEventListener("click", function () {
 });
 
 // Menu button is clicked. (Mobile Only)
-function toggleSidebar() {
+async function toggleSidebar() {
   if (window.innerWidth < 460) {
     let sidebar = document.getElementById("sidebar");
     if (sidebar.style.display == "none" || sidebar.style.display == "") {
@@ -180,7 +180,7 @@ function updatePageContent() {
 window.updatePageContent = updatePageContent;
 updatePageContent();
 
-function join_meeting() {
+async function join_meeting() {
   let meeting_id = prompt("Enter the meeting ID:");
 
   if (meeting_id) {
@@ -195,7 +195,7 @@ function join_meeting() {
 }
 window.join_meeting = join_meeting;
 
-function externalLink(link) {
+async function externalLink(link) {
   if (confirm("This link will take you away from Tavin.xyz. Are you sure?")) {
     window.open(link, "_blank");
   } else {
@@ -204,7 +204,7 @@ function externalLink(link) {
 }
 window.externalLink = externalLink;
 
-function liveChat() {
+async function liveChat() {
   let liveChat = document.getElementById("liveChatWrap");
   location.hash = "chat";
   setInterval(function () {
@@ -223,7 +223,7 @@ function liveChat() {
 }
 window.liveChat = liveChat;
 
-function loginPage() {
+async function loginPage() {
   location.hash = "login";
 }
 window.loginPage = loginPage;

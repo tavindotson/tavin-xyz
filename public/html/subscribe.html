@@ -35,34 +35,38 @@
     .flex-col > button:hover {
       background-color: #ccc;
     }
+    .text-xs {
+      padding-top: 5px;
+      font-size: 0.75rem;
+    }
   </style>
-<form action="https://keila.tavin.xyz/forms/frm_GX8qGEZd" method="post">
-  <div class="flex flex-col">
-    <label for="contact_email"> Email </label>
-    <input id="contact_email" name="contact[email]" type="email" />
-  </div>
-  <div class="flex flex-col">
-    <label for="contact_first_name"> First name </label>
-    <input id="contact_first_name" name="contact[first_name]" type="text" />
-  </div>
-  <div class="flex flex-col">
-    <label for="contact_last_name"> Last name (optional) </label>
-    <input id="contact_last_name" name="contact[last_name]" type="text" />
-  </div>
-  <div class="flex flex-col">
-    <div
-      class="h-captcha"
-      data-sitekey="9be24202-aec1-4912-aed1-a97fa8d4dde1"
-      data-theme="dark"
-    ></div>
-    <script
-      async="async"
-      defer="defer"
-      src="https://hcaptcha.com/1/api.js"
-    ></script>
-  </div>
-  <div class="flex justify-start">
-    <button style="width: 100%;">Subscribe</button>
-  </div>
-</form>
+  <form action="https://keila.tavin.xyz/forms/frm_GX8qGEZd" method="post">
+    <div class="flex flex-col">
+      <label for="contact_email"> Email </label>
+      <input id="contact_email" name="contact[email]" type="email" />
+    </div>
+    <div class="flex flex-col">
+      <label for="contact_first_name"> First name </label>
+      <input id="contact_first_name" name="contact[first_name]" type="text" />
+    </div>
+    <div class="flex flex-col">
+      <label for="contact_last_name"> Last name (optional) </label>
+      <input id="contact_last_name" name="contact[last_name]" type="text" />
+    </div>
+    <div class="flex flex-col">
+      <div
+        class="h-captcha"
+        data-sitekey="9be24202-aec1-4912-aed1-a97fa8d4dde1"
+        data-theme="dark"
+      ></div>
+      <script
+        async="async"
+        defer="defer"
+        src="https://hcaptcha.com/1/api.js"
+      ></script>
+    </div>
+    <div class="flex justify-start">
+      <button style="width: 100%">Subscribe</button>
+    </div>
+  </form>
 </div>

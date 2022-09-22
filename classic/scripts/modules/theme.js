@@ -8,7 +8,7 @@ const spanLight =
 const spanDark =
   "<span class='material-icons' style='transform: translate(0,3px)'> dark_mode </span>";
 
-export function toggleTheme() {
+export async function toggleTheme() {
   let themebtn = document.getElementById("theme-btn");
   if (theme.getAttribute("href") === "./styles/main.css") {
     theme.setAttribute("href", "./styles/dark.css");
@@ -27,7 +27,7 @@ export function toggleTheme() {
   }
 }
 
-export function setThemeDark() {
+export async function setThemeDark() {
   let themebtn = document.getElementById("theme-btn");
   theme.setAttribute("href", "./styles/dark.css");
   themecolor.setAttribute("content", "#000000");
@@ -37,7 +37,7 @@ export function setThemeDark() {
   }
 }
 
-export function setThemeLight() {
+export async function setThemeLight() {
   let themebtn = document.getElementById("theme-btn");
   theme.setAttribute("href", "./styles/main.css");
   themecolor.setAttribute("content", "#00008b");
@@ -47,7 +47,7 @@ export function setThemeLight() {
   }
 }
 
-export function addThemebtn() {
+export async function addThemebtn() {
   // construct a button
   let themebtn = document.createElement("button");
   themebtn.setAttribute("id", "theme-btn");
