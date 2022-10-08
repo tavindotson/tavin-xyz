@@ -22,9 +22,9 @@ const PRECACHE_URLS = [
   "index.html",
   "404.html",
   "./", // Alias for index.html
-  "styles/main.css",
-  "scripts/main.js",
-  "scripts/site-events.js",
+  "./styles/main.css",
+  "./scripts/main.js",
+  "./scripts/site-events.js",
 ];
 
 // The install handler takes care of precaching the resources we always need.
