@@ -109,22 +109,22 @@ export function setLogoutbtn() {
   }
 }
 
-// Show the google login button
-export function setLoginbtn() {
-  let loginbtn = document.getElementById("loginbtn");
-  let button_wrap = document.getElementById("button_wrap");
-  if (loginbtn) {
-    loginbtn.style.display = "none";
-    let img = document.createElement("img");
-    img.src =
-      "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/media/google-login.png";
-    img.className = "googleloginbtn";
-    img.style.width = "calc(var(--button-width) + 10px)";
-    img.setAttribute("id", "googleloginbtn");
-    img.setAttribute("onclick", "login()");
-    button_wrap.prepend(img);
-  }
-}
+// // Old code
+// export function setLoginbtn() {
+//   let loginbtn = document.getElementById("loginbtn");
+//   let button_wrap = document.getElementById("button_wrap");
+//   if (loginbtn) {
+//     loginbtn.style.display = "none";
+//     let img = document.createElement("img");
+//     img.src =
+//       "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/media/google-login.png";
+//     img.className = "googleloginbtn";
+//     img.style.width = "calc(var(--button-width) + 10px)";
+//     img.setAttribute("id", "googleloginbtn");
+//     img.setAttribute("onclick", "login()");
+//     button_wrap.prepend(img);
+//   }
+// }
 
 export function betaAlert() {
   alert(
