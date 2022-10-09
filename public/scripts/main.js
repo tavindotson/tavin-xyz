@@ -15,7 +15,7 @@ function askForFullScreen() {
   if (!getCookie("QuestionFullscreen")) {
     if (
       confirm(
-        "This website is better experienced in fullscreen mode. Click OK to go fullscreen."
+        "This website works better in fullscreen."
       )
     ) {
       setCookie("QuestionFullscreen", true);
