@@ -41,8 +41,8 @@ async function createOur3D() {
   var animate = function () {
     requestAnimationFrame(animate);
 
-    cube.rotation.x += 1/750;
-    cube.rotation.y += 1/1350;
+    cube.rotation.x += 1 / 360;
+    cube.rotation.y += 1 / 360;
 
     renderer.render(scene, camera);
   };
