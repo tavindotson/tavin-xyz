@@ -3,5 +3,3 @@
 This repo lives at https://git.tavin.xyz/tavin/tavin-xyz.git. The Github version is maintained as a mirror as it is setup to auto-deploy to Firebase.
 
 You can see this live site at [tavin.xyz](https://tavin.xyz).
-
-Testing gpg key.
