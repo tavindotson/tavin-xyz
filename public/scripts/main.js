@@ -10,21 +10,21 @@ addElementBody("./scripts/modules/firebase.js", "script", "module");
 
 checkUser();
 
-function askForFullScreen() {
-  // If there is no cookie with the name QuestionFullscreen then ask the user if they would like to go fullscreen.
-  if (!getCookie("QuestionFullscreen")) {
-    if (
-      confirm(
-        "This website works better in fullscreen."
-      )
-    ) {
-      setCookie("QuestionFullscreen", true);
-      document.documentElement.requestFullscreen();
-    } else {
-      setCookie("QuestionFullscreen", "declined");
-    }
-  }
-}
+// function askForFullScreen() {
+//   // If there is no cookie with the name QuestionFullscreen then ask the user if they would like to go fullscreen.
+//   if (!getCookie("QuestionFullscreen")) {
+//     if (
+//       confirm(
+//         "This website works better in fullscreen."
+//       )
+//     ) {
+//       setCookie("QuestionFullscreen", true);
+//       document.documentElement.requestFullscreen();
+//     } else {
+//       setCookie("QuestionFullscreen", "declined");
+//     }
+//   }
+// }
 
 if (
   !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(

@@ -69,6 +69,12 @@ document.getElementById("applink").addEventListener("click", function () {
   toggleSidebar();
 });
 
+// Wiki button is clicked.
+document.getElementById("wikiLink").addEventListener("click", function () {
+  externalLink("https://wiki.tavin.xyz/");
+  toggleSidebar();
+});
+
 // Status button is clicked.
 document.getElementById("statusLink").addEventListener("click", function () {
   externalLink("https://uptime.tavin.xyz/status/general");
