@@ -57,12 +57,6 @@ document.getElementById("theme").addEventListener("click", function () {
   toggleSidebar();
 });
 
-// Meet button is clicked.
-document.getElementById("meetings").addEventListener("click", function () {
-  window.location.hash = "meetings";
-  toggleSidebar();
-});
-
 // Applink button is clicked.
 document.getElementById("applink").addEventListener("click", function () {
   window.location.hash = "apps";
