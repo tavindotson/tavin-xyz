@@ -59,13 +59,13 @@ document.getElementById("theme").addEventListener("click", function () {
 
 // Applink button is clicked.
 document.getElementById("applink").addEventListener("click", function () {
-  window.location.hash = "apps";
+  externalLink("https://homepage.tavin.xyz");
   toggleSidebar();
 });
 
-// Wiki button is clicked.
-document.getElementById("wikiLink").addEventListener("click", function () {
-  externalLink("https://wiki.tavin.xyz/");
+// Chat button is clicked.
+document.getElementById("chatLink").addEventListener("click", function () {
+  window.location.hash = "chat";
   toggleSidebar();
 });
 
