@@ -1,3 +1,5 @@
+// Tavin Dotson (tjd@tavin.xyz)
+
 var loc = document.location;
 var host = loc.host;
 var path = loc.pathname;

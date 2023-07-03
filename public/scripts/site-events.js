@@ -1,3 +1,5 @@
+// Tavin Dotson (tjd@tavin.xyz)
+
 // Login button is clicked.
 document.getElementById("login").addEventListener("click", function () {
   location.hash = "login";

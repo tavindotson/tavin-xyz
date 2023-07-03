@@ -1,5 +1,4 @@
-// Author: Tavin Dotson (tjd@tavin.xyz)
-// These functions handle behind the scenes tasks.
+// Tavin Dotson (tjd@tavin.xyz)
 
 // Gets a cookie given a name.
 export function getCookie(name) {

@@ -1,3 +1,5 @@
+// Tavin Dotson (tjd@tavin.xyz)
+
 import { addUserData } from "./firebase.js";
 
 export function setTheme(theme) {

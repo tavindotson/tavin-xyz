@@ -1,3 +1,4 @@
+// Tavin Dotson (tjd@tavin.xyz)
 // Import firebase functions
 // https://firebase.google.com/docs/web/setup#available-libraries
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";

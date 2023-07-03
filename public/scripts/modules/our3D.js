@@ -1,3 +1,5 @@
+// Tavin Dotson (tjd@tavin.xyz)
+
 import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.min.js";
 
 var mainContent = document.getElementById("our3DContent");
