@@ -1,4 +1,5 @@
 /* W3.JS 1.04 April 2019 by w3schools.com */
+
 "use strict";
 var w3 = {};
 w3.hide = function (sel) {
@@ -503,3 +504,6 @@ w3.getElementsByAttribute = function (x, att) {
       a.innerHTML = a.innerHTML.replace(r, result);
     }
   });
+
+// This is released under the license listed on the W3
+// website.

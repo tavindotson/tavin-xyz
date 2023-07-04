@@ -1,4 +1,4 @@
-// Tavin Dotson (tjd@tavin.xyz)
+// (c) 2023 Tavin Dotson (tjd@tavin.xyz)
 
 import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.min.js";
 
@@ -60,3 +60,16 @@ if (!our3D) {
   our3D.innerHTML = "";
   createOur3D();
 }
+
+// This is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+
+// The code is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+
+// The source code should include a copy of the GPL.
+// If not, see <https://www.gnu.org/licenses/>.
