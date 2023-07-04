@@ -1,4 +1,4 @@
-// Tavin Dotson (tjd@tavin.xyz)
+// (c) 2023 Tavin Dotson (tjd@tavin.xyz)
 
 import { addElementBody, setCookie, getCookie } from "./modules/util.js";
 import { checkUser } from "./modules/firebase.js";
