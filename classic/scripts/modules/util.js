@@ -1,4 +1,5 @@
-// Author: Tavin Dotson (tjd@tavin.xyz)
+// (c) 2023 Tavin Dotson (tjd@tavin.xyz)
+
 // These functions handle behind the scenes tasks.
 
 // Gets a cookie given a name.
@@ -87,3 +88,18 @@ export async function generateKey() {
   }
   return newKey;
 }
+
+// This file is part of the source code of Tavin.xyz.
+
+// This is free software: you can redistribute it and / or modify it under
+// the terms of the GNU General Public License as published by the Free
+// Software Foundation, either version 3 of the License, or(at your option)
+// any later version.
+
+// This code is distributed in the hope that it will be useful, but WITHOUT
+// ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+// FITNESS FOR A PARTICULAR PURPOSE.See the GNU General Public License for
+// more details.
+
+// You should have received a copy of the GNU General Public License along
+// with Foobar.If not, see < https://www.gnu.org/licenses/>.
