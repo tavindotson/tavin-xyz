@@ -9,4 +9,3 @@ You can see this live site at [tavin.xyz](https://tavin.xyz).
 Tavin Dotson
 [tjd@tavin.xyz](mailto:tjd@tavin.xyz)
 [(360) 808-0790](tel:+13608080790)
-
