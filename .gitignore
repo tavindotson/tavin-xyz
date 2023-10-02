@@ -66,3 +66,7 @@ node_modules/
 .env
 
 .vscode/
+
+# Image Files
+*.jpg
+*.png
