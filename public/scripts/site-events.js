@@ -65,9 +65,9 @@ document.getElementById("applink").addEventListener("click", function () {
   toggleSidebar();
 });
 
-// wikiLink button is clicked.
-document.getElementById("wikiLink").addEventListener("click", function () {
-  externalLink("https://wiki.tavin.xyz");
+// streamLink button is clicked.
+document.getElementById("streamLink").addEventListener("click", function () {
+  window.location.hash = "stream";
   toggleSidebar();
 });
 
