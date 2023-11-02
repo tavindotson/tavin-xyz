@@ -1,4 +1,4 @@
-// (c) 2023 Tavin Dotson (tjd@tavin.xyz)
+// 2023 Tavin Dotson (tjd@tavin.xyz)
 
 // Login button is clicked.
 document.getElementById("login").addEventListener("click", function () {
@@ -67,7 +67,7 @@ document.getElementById("applink").addEventListener("click", function () {
 
 // streamLink button is clicked.
 document.getElementById("streamLink").addEventListener("click", function () {
-  window.location.hash = "stream";
+  externalLink("https://stream.tavin.xyz");
   toggleSidebar();
 });
 
