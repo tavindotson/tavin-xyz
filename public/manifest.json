@@ -53,6 +53,6 @@
   "background_color": "#000000",
   "start_url": "https://homepage.tavin.xyz",
   "display": "standalone",
-  "id": "https://homepage.tavin.xyz",
+  "id": "https://tavin.xyz",
   "orientation": "landscape"
 }
