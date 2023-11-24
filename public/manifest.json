@@ -1,29 +1,58 @@
 {
   "short_name": "Tavin.xyz",
   "name": "Tavin.xyz (PWA)",
-  "description": "Install this PWA to enable background functions and advanced caching.",
+  "description": "This PWA lets you access Tavin.xyz services quicker.",
   "icons": [
     {
-      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/media/android-chrome-192x192.png",
+      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/web-icons/android-chrome-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/web-icons/android-chrome-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/web-icons/android-chrome-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/web-icons/android-chrome-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/web-icons/android-chrome-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/web-icons/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/media/android-chrome-512x512.png",
-      "sizes": "512x512",
+      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/web-icons/android-chrome-256x256.png",
+      "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/media/android-chrome-512x512.png",
-      "sizes": "196x196",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/web-icons/android-chrome-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/web-icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
-  "id": "./index.html",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "orientation": "landscape",
   "theme_color": "#000000",
-  "background_color": "#000000"
+  "background_color": "#000000",
+  "start_url": "https://homepage.tavin.xyz",
+  "display": "standalone",
+  "id": "https://homepage.tavin.xyz",
+  "orientation": "landscape"
 }
