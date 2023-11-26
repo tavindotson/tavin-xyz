@@ -1,0 +1,81 @@
+<h1 class="title">Game Server Hosting</h1>
+<h2 class="slogan" style="font-size: 26px">
+  <a onclick="location.hash='about'">Contact me</a> about pricing today.
+</h2>
+
+<div class="server-container">
+  <div class="server">
+    <h2>Basic</h2>
+    <p>Perfect for small communities or personal use.</p>
+    <ul class="no-bullets">
+      <li>1GB RAM</li>
+      <li>10 player slots</li>
+      <li>Basic support</li>
+    </ul>
+  </div>
+
+  <div class="server">
+    <h2>Standard</h2>
+    <p>Great for medium-sized communities and gaming groups.</p>
+    <ul class="no-bullets">
+      <li>4GB RAM</li>
+      <li>25 player slots</li>
+      <li>24/7 support</li>
+    </ul>
+  </div>
+
+  <div class="server">
+    <h2>Advanced</h2>
+    <p>Designed for large communities and professional use.</p>
+    <ul class="no-bullets">
+      <li>8GB RAM</li>
+      <li>50 player slots</li>
+      <li>Premium support</li>
+    </ul>
+  </div>
+</div>
+<style>
+  title {
+    font-size: 1.5em;
+  }
+  .server-container {
+    display: flex;
+    flex-direction: row; /* Horizontal arrangement */
+    justify-content: space-around; /* Space between columns */
+    align-items: stretch; /* Columns stretch to equal height */
+    margin: 20px 0; /* Margin for the container */
+    overflow: auto; /* Enable horizontal scroll */
+    height: 100%;
+  }
+
+  .server {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    overflow-y: auto; /* Enable vertical scroll if content is too long */
+  }
+
+  .no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+  }
+
+  @media screen and (max-width: 600px) {
+    /* Adjust layout for screens with a maximum width of 600px (typical mobile devices) */
+    .server-container {
+      flex-direction: column; /* Change to vertical arrangement */
+      overflow: none;
+    }
+    .server {
+      flex: 1;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin: 5px;
+      overflow: none;
+      justify-content: flex-start;
+    }
+  }
+</style>
