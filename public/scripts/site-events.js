@@ -46,12 +46,12 @@ document.getElementById("data").addEventListener("click", function () {
 });
 
 // User clicks the install PWA button
-document.getElementById("downloadBtn").addEventListener("click", function () {
-  // if the screen width is smaller than 460px
-  if (window.innerWidth < 460) {
-    document.getElementById("sidebar").style.display = "none";
-  }
-});
+// document.getElementById("downloadBtn").addEventListener("click", function () {
+//   // if the screen width is smaller than 460px
+//   if (window.innerWidth < 460) {
+//     document.getElementById("sidebar").style.display = "none";
+//   }
+// });
 
 // Theme button is clicked.
 document.getElementById("theme").addEventListener("click", function () {
@@ -61,15 +61,15 @@ document.getElementById("theme").addEventListener("click", function () {
 
 // Applink button is clicked.
 document.getElementById("applink").addEventListener("click", function () {
-  externalLink("https://homepage.tavin.xyz");
+  externalLink("https://apps.tavin.xyz");
   toggleSidebar();
 });
 
 // streamLink button is clicked.
-document.getElementById("streamLink").addEventListener("click", function () {
-  externalLink("https://stream.tavin.xyz");
-  toggleSidebar();
-});
+// document.getElementById("streamLink").addEventListener("click", function () {
+//   externalLink("https://stream.tavin.xyz");
+//   toggleSidebar();
+// });
 
 // Chat button is clicked.
 document.getElementById("chatLink").addEventListener("click", function () {
@@ -78,10 +78,10 @@ document.getElementById("chatLink").addEventListener("click", function () {
 });
 
 // Status button is clicked.
-document.getElementById("statusLink").addEventListener("click", function () {
-  externalLink("https://uptime.tavin.xyz/status/general");
-  toggleSidebar();
-});
+// document.getElementById("statusLink").addEventListener("click", function () {
+//   externalLink("https://uptime.tavin.xyz/status/general");
+//   toggleSidebar();
+// });
 
 // About button is clicked.
 document.getElementById("about").addEventListener("click", function () {
@@ -204,11 +204,12 @@ async function join_meeting() {
 window.join_meeting = join_meeting;
 
 async function externalLink(link) {
-  if (confirm("This link will take you away from Tavin.xyz. Are you sure?")) {
-    window.open(link, "_blank");
-  } else {
-    return false;
-  }
+  window.open(link, "_blank");
+  // if (confirm("This link will take you away from Tavin.xyz. Are you sure?")) {
+  //   window.open(link, "_blank");
+  // } else {
+  //   return false;
+  // }
 }
 window.externalLink = externalLink;
 
