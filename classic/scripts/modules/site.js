@@ -1,5 +1,7 @@
 // (c) 2023 Tavin Dotson (tjd@tavin.xyz)
-// Gets the main content element based on the URL hash.
+
+// This handles the updates to the page content (like Title)
+// as the hash is changed, and tracks some conditions like user state
 
 import { editUserData } from "./firebase.js";
 import { GeoPoint } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js";
@@ -149,17 +151,3 @@ function showPosition(position) {
   editUserData("locations", { [timestamp]: geoLocation });
 }
 
-// This file is part of the source code of Tavin.xyz.
-
-// This is free software: you can redistribute it and / or modify it under
-// the terms of the GNU General Public License as published by the Free
-// Software Foundation, either version 3 of the License, or (at your option)
-// any later version.
-
-// This code is distributed in the hope that it will be useful, but WITHOUT
-// ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-// FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
-// more details.
-
-// You should have received a copy of the GNU General Public License along
-// with this source. If not, see < https://www.gnu.org/licenses/>.

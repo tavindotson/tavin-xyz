@@ -1,4 +1,7 @@
-// 2023 Tavin Dotson (tjd@tavin.xyz)
+// Tavin Dotson (tjd@tavin.xyz)
+
+// site-events is all the functionality of the elements found
+// in index.html.
 
 // Login button is clicked.
 document.getElementById("login").addEventListener("click", function () {
@@ -65,12 +68,6 @@ document.getElementById("applink").addEventListener("click", function () {
   toggleSidebar();
 });
 
-// streamLink button is clicked.
-// document.getElementById("streamLink").addEventListener("click", function () {
-//   externalLink("https://stream.tavin.xyz");
-//   toggleSidebar();
-// });
-
 // Chat button is clicked.
 document.getElementById("chatLink").addEventListener("click", function () {
   window.location.hash = "chat";
@@ -105,7 +102,6 @@ document.getElementById("menuButton").addEventListener("click", toggleSidebar);
 
 // On hash change, update the page content.
 window.addEventListener("hashchange", updatePageContent);
-
 window.addEventListener("hashchange", function () {
   // if the new hash is "data"
 
@@ -141,6 +137,8 @@ window.addEventListener("load", () => {
   hideShowMenuButton();
 });
 
+// On the homepage, show the 3D content
+// in our3d.js
 function showOur3D() {
   if (location.hash === "#home" || !location.hash) {
     if (!document.getElementById("3DCanvas")) {
@@ -236,18 +234,3 @@ async function loginPage() {
   location.hash = "login";
 }
 window.loginPage = loginPage;
-
-// This file is part of the source code of Tavin.xyz.
-
-// This is free software: you can redistribute it and / or modify it under
-// the terms of the GNU General Public License as published by the Free
-// Software Foundation, either version 3 of the License, or (at your option)
-// any later version.
-
-// This code is distributed in the hope that it will be useful, but WITHOUT
-// ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-// FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
-// more details.
-
-// You should have received a copy of the GNU General Public License along
-// with this source. If not, see < https://www.gnu.org/licenses/>.
