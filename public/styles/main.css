@@ -303,7 +303,7 @@ button:hover {
 }
 
 #tavinIMG {
-  max-height: 35%;
+  max-height: 45%;
 }
 
 #aboutWrap {
@@ -427,6 +427,10 @@ button:hover {
     position: absolute;
     bottom: 15px;
     max-width: 25%;
+  }
+
+  #tavinIMG {
+    max-height: 55%;
   }
 
   #cloudBtn {
