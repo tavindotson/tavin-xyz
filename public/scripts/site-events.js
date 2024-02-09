@@ -74,6 +74,12 @@ document.getElementById("chatLink").addEventListener("click", function () {
   toggleSidebar();
 });
 
+// Report Bug button is clicked.
+document.getElementById("reportLink").addEventListener("click", function () {
+  window.location.hash = "report";
+  toggleSidebar();
+});
+
 // Status button is clicked.
 // document.getElementById("statusLink").addEventListener("click", function () {
 //   externalLink("https://uptime.tavin.xyz/status/general");
@@ -99,6 +105,7 @@ async function toggleSidebar() {
 }
 window.toggleSidebar();
 document.getElementById("menuButton").addEventListener("click", toggleSidebar);
+toggleSidebar();
 
 // On hash change, update the page content.
 window.addEventListener("hashchange", updatePageContent);
