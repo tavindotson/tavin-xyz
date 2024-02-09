@@ -30,6 +30,13 @@ async function createOur3D() {
   var cube = new THREE.Mesh(geometry, material);
   scene.add(cube);
 
+  var geometry2 = new THREE.IcosahedronGeometry(1, 0);
+  var material2 = new THREE.MeshStandardMaterial({
+    color: themeColor(),
+  });
+  var cube2 = new THREE.Mesh(geometry2, material2);
+  scene.add(cube2);
+
   const pointLight = new THREE.PointLight(0x36d644, 1, 500);
   pointLight.position.set(0, 5, 4);
   scene.add(pointLight);
@@ -44,7 +51,10 @@ async function createOur3D() {
     requestAnimationFrame(animate);
 
     cube.rotation.x += 1 / 360;
-    cube.rotation.y += 1 / 360;
+    cube.rotation.y += 1 / 370;
+
+    cube2.rotation.x += -1 / 310;
+    cube2.rotation.y += -1 / 360;
 
     renderer.render(scene, camera);
   };
