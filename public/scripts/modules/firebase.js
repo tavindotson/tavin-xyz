@@ -70,8 +70,6 @@ export function checkUser() {
         let firstname = user.displayName.split(" ")[0];
         document.getElementById("welcomeTitle").innerText =
           "Welcome " + firstname;
-        document.getElementById("userMenu").innerText =
-          firstname;
       }
       document.getElementById("loginItem").style.display = "none";
       document.getElementById("logoutItem").style.display = "block";
