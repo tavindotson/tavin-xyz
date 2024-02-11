@@ -306,6 +306,11 @@ button:hover {
   max-height: 65%;
 }
 
+#logoSidebar{
+  max-width: 40%;
+  margin-bottom: 25px;
+}
+
 #aboutWrap {
   width: 70%;
   height: 100%;
@@ -437,6 +442,10 @@ button:hover {
   #cloudBtn {
     top: 50px;
     bottom: auto;
+  }
+
+  #logoSidebar{
+    max-width: 20%;
   }
 }
 
