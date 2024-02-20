@@ -362,7 +362,7 @@ button:hover {
 
 #versionNum {
   position: fixed;
-  right: 1%;
+  right: 12px;
   font-size: 14px;
 }
 
