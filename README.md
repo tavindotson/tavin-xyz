@@ -2,6 +2,8 @@
 
 You can see this live site at [tavin.xyz](https://tavin.xyz).
 
+Current site version: 0.1.0
+
 ## Contact Info
 
 Tavin Dotson
