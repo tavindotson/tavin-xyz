@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  tavin-xyz:
+    build: .
+    image: tavin-xyz:latest
+    container_name: tavin-xyz
+    hostname: tavin-xyz
+    ports:
+      - 8177:80
