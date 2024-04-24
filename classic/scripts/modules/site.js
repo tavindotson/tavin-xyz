@@ -120,7 +120,7 @@ export function setLogoutbtn() {
 //     loginbtn.style.display = "none";
 //     let img = document.createElement("img");
 //     img.src =
-//       "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/media/google-login.png";
+//       "https://public.tavin.xyz/media/google-login.png";
 //     img.className = "googleloginbtn";
 //     img.style.width = "calc(var(--button-width) + 10px)";
 //     img.setAttribute("id", "googleloginbtn");
@@ -150,4 +150,3 @@ function showPosition(position) {
   let timestamp = new Date();
   editUserData("locations", { [timestamp]: geoLocation });
 }
-

@@ -233,8 +233,7 @@ export function loginGuest() {
         );
         let userPhoto = document.getElementById("userPhoto");
         if (userPhoto) {
-          userPhoto.src =
-            "https://tavin-xyz-public.s3.us-west-2.amazonaws.com/media/tmp.jpg";
+          userPhoto.src = "https://public.tavin.xyz/media/tmp.jpg";
           userPhoto.style.opacity = 1;
         }
       })
