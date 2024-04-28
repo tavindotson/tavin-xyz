@@ -62,6 +62,12 @@ document.getElementById("theme").addEventListener("click", function () {
   toggleSidebar();
 });
 
+// Apps button is clicked.
+document.getElementById("app_link").addEventListener("click", function () {
+  externalLink("https://auth.tavin.xyz");
+  toggleSidebar();
+});
+
 // // Applink button is clicked.
 // document.getElementById("applink").addEventListener("click", function () {
 //   externalLink("https://apps.tavin.xyz");
