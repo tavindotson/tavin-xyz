@@ -62,11 +62,11 @@ document.getElementById("theme").addEventListener("click", function () {
   toggleSidebar();
 });
 
-// Applink button is clicked.
-document.getElementById("applink").addEventListener("click", function () {
-  externalLink("https://apps.tavin.xyz");
-  toggleSidebar();
-});
+// // Applink button is clicked.
+// document.getElementById("applink").addEventListener("click", function () {
+//   externalLink("https://apps.tavin.xyz");
+//   toggleSidebar();
+// });
 
 // Chat button is clicked.
 document.getElementById("chatLink").addEventListener("click", function () {

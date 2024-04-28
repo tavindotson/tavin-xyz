@@ -12,6 +12,7 @@ import {
   onAuthStateChanged,
   signOut,
   deleteUser,
+  OAuthProvider,
 } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-auth.js";
 import {
   getFirestore,
@@ -41,7 +42,8 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-const provider = new GoogleAuthProvider();
+// const provider = new GoogleAuthProvider();
+const provider = new OAuthProvider('oidc.tavin-xyz');
 const auth = getAuth();
 const db = getFirestore(app);
 const perf = getPerformance(app);
@@ -162,9 +164,10 @@ export function login() {
   let timezoneString = "UTC-" + timezone;
   signInWithPopup(auth, provider)
     .then((result) => {
-      // This gives you a Google Access Token. You can use it to access the Google API.
-      const credential = GoogleAuthProvider.credentialFromResult(result);
+      // This gives you an Access Token.
+      const credential = OAuthProvider.credentialFromResult(result);
       const token = credential.accessToken;
+      const idToken = credential.idToken;
       // The signed-in user info.
       const user = result.user;
 
@@ -272,7 +275,6 @@ export function logout() {
       document.getElementById("mainContent").innerText = error.message;
     });
 }
-
 window.logout = logout;
 
 export function userDataPage() {
