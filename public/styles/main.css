@@ -325,7 +325,7 @@ button:hover {
 
 #learnMoreBtnWrap {
   position: absolute;
-  bottom: calc(50% - 250px);
+  bottom: 6%;
 }
 
 #our3DContent {
