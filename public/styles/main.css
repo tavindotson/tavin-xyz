@@ -323,6 +323,17 @@ button:hover {
   overflow: hidden;
 }
 
+#haWrap {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
 #learnMoreBtnWrap {
   position: absolute;
   bottom: 6%;
