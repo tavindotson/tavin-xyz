@@ -324,7 +324,7 @@ button:hover {
 }
 
 #haWrap {
-  width: 100%;
+  width: auto;
   height: 100%;
   overflow: auto;
   display: flex;
@@ -332,6 +332,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  hyphens: auto;
 }
 
 #learnMoreBtnWrap {
