@@ -333,6 +333,7 @@ button:hover {
   justify-content: center;
   overflow: hidden;
   hyphens: auto;
+  max-width: 60%;
 }
 
 #learnMoreBtnWrap {
@@ -461,6 +462,10 @@ button:hover {
   #cloudBtn {
     top: 50px;
     bottom: auto;
+  }
+
+  #haWrap {
+    max-width: auto;
   }
 
   #logoSidebar {
