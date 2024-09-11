@@ -70,7 +70,7 @@ document.getElementById("app_link").addEventListener("click", function () {
 
 // Applink button is clicked.
 document.getElementById("applink").addEventListener("click", function () {
-  externalLink("https://uptime.tavin.xyz");
+  externalLink("https://apps.tavin.xyz");
   toggleSidebar();
 });
 
