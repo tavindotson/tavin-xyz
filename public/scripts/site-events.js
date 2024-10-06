@@ -70,7 +70,7 @@ document.getElementById("app_link").addEventListener("click", function () {
 
 // Applink button is clicked.
 document.getElementById("applink").addEventListener("click", function () {
-  externalLink("https://apps.tavin.xyz");
+  window.location.href = "https://apps.tavin.xyz";
   toggleSidebar();
 });
 
