@@ -43,7 +43,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 // const provider = new GoogleAuthProvider();
-const provider = new OAuthProvider('oidc.tavin-xyz');
+const provider = new OAuthProvider("oidc.tavin-xyz");
 const auth = getAuth();
 const db = getFirestore(app);
 const perf = getPerformance(app);
@@ -90,7 +90,7 @@ export function checkUser() {
       }
     } else {
       document.getElementById("userPhotoShow").style.display = "none";
-      document.getElementById("loginItem").style.display = "block";
+      document.getElementById("loginItem").style.display = "none";
       document.getElementById("logoutItem").style.display = "none";
       document.getElementById("welcomeTitle").innerText = "Welcome";
       document.getElementById("userPhoto").style.opacity = 0;
