@@ -74,6 +74,12 @@ document.getElementById("applink").addEventListener("click", function () {
   toggleSidebar();
 });
 
+// wikiLink button is clicked.
+document.getElementById("wikiLink").addEventListener("click", function () {
+  window.location.href = "https://wiki.tavin.xyz";
+  toggleSidebar();
+});
+
 // Chat button is clicked.
 document.getElementById("chatLink").addEventListener("click", function () {
   window.location.hash = "chat";
