@@ -215,7 +215,7 @@ async function join_meeting() {
 window.join_meeting = join_meeting;
 
 async function externalLink(link) {
-  window.open(link, "_blank");
+  window.open(link, "_self");
   // if (confirm("This link will take you away from Tavin.xyz. Are you sure?")) {
   //   window.open(link, "_blank");
   // } else {
