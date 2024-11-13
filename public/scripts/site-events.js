@@ -98,11 +98,11 @@ document.getElementById("reportLink").addEventListener("click", function () {
 //   toggleSidebar();
 // });
 
-// About button is clicked.
-document.getElementById("about").addEventListener("click", function () {
-  window.location.hash = "about";
-  toggleSidebar();
-});
+// // About button is clicked.
+// document.getElementById("about").addEventListener("click", function () {
+//   window.location.hash = "about";
+//   toggleSidebar();
+// });
 
 // Menu button is clicked. (Mobile Only)
 async function toggleSidebar() {
