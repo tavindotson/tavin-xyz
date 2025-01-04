@@ -120,7 +120,7 @@ export function setLogoutbtn() {
 //     loginbtn.style.display = "none";
 //     let img = document.createElement("img");
 //     img.src =
-//       "https://public.tavin.xyz/media/google-login.png";
+//       "https://s3.tavin.xyz/public/media/google-login.png";
 //     img.className = "googleloginbtn";
 //     img.style.width = "calc(var(--button-width) + 10px)";
 //     img.setAttribute("id", "googleloginbtn");

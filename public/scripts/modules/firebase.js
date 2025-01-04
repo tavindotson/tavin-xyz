@@ -236,7 +236,7 @@ export function loginGuest() {
         );
         let userPhoto = document.getElementById("userPhoto");
         if (userPhoto) {
-          userPhoto.src = "https://public.tavin.xyz/media/tmp.jpg";
+          userPhoto.src = "https://s3.tavin.xyz/public/media/tmp.jpg";
           userPhoto.style.opacity = 1;
         }
       })
