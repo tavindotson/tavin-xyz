@@ -2,7 +2,7 @@
 
 You can see this live site at [tavin.xyz](https://tavin.xyz).
 
-Current site version: 0.1.6
+Current site version: 0.1.7
 
 ## Contact Info
 
